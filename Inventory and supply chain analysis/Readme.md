@@ -1,18 +1,17 @@
-# Telephone Sector Churn Analysis
+# Inventory and Supply Chain Analysis
 
 ## 🎯 Objective
-To identify the core drivers of customer churn within the telephone sector. The goal was to provide actionable insights to the retention team to help reduce customer attrition through targeted service offers and contract strategies.
+To optimize warehouse operations and supply chain flow by analyzing inventory turnover, lead times, and backorder statuses. The objective was to highlight bottlenecks causing delays in order fulfillment.
 
 ## 📊 Key Insights
-- **Demographic Vulnerability:** Identified that customers aged 50+ show significantly higher churn rates (31.04%) compared to younger segments.
-- **Service Impact:** Discovered a direct correlation between churn and "Fiber Optic" internet usage, suggesting competitive pressure or technical dissatisfaction in that service tier.
-- **Retention Strategy:** Data indicates that long-term contracts (1-year and 2-year) are effective retention tools, showing a drastic drop in churn rate compared to month-to-month contracts.
+- **Efficiency Bottlenecks:** Identified specific categories with high lead times that are currently impacting the overall inventory turnover ratio.
+- **Backorder Analysis:** Segmented backorders by order status to pinpoint the fulfillment gap between "Pending" and "Fulfilled" orders.
+- **Warehouse Utilization:** Established a baseline for warehouse efficiency, providing a clear visual of underutilized vs. over-capacitated regions.
 
 ## 🛠 Technical Implementation
-- **Data Cleaning:** Used Power Query to resolve date formatting inconsistencies by applying locale-aware transformations.
-- **Data Modeling:** Built a relational model to handle multi-category churn metrics, utilizing measures for automated churn rate calculation.
-- **Visualization:** Designed an authoritative, high-contrast dashboard using a "High-Command" aesthetic, focusing on information hierarchy and interactive cross-filtering.
+- **KPI Development:** Calculated complex ratios including "Days Sales of Inventory" and "Inventory Turnover Ratio" using DAX measures.
+- **Data Structuring:** Managed time-series data to visualize units sold trends, identifying peak demand periods.
+- **UX/UI Design:** Created a cohesive, monochromatic "Minimalist" dashboard design to ensure critical supply chain KPIs are easily readable at a glance.
 
 ## 📈 Tools Used
-- **Power BI:** DAX, Power Query, Data Visualization.
-- **Techniques:** KPI Card creation, Donut chart drill-downs, Conditional Formatting, and Dynamic Slicing.
+- **Power BI:** DAX (Aggregations & Ratios), Custom Theme Design, Gauge Charts, and Scatter-Matrix visualizations.
